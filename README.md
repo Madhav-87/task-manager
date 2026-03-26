@@ -86,7 +86,7 @@ project/
 ### 1. Clone the repository
  
 ```bash
-git clone https://github.com/your-username/task-manager.git
+git clone https://github.com/madhav-87/task-manager.git
 cd task-manager
 ```
  
