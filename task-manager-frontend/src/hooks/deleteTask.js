@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import { toast } from 'react-toastify'
 
-export default function useDeleteTask() {
+export default function useDeleteTask(userData) {
     const deleteTask = (userData) => {
         axios.delete('http://localhost:3000/user/task/update', {
             data: userData,
