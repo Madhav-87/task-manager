@@ -1,0 +1,108 @@
+*{
+  font-family: sans-serif;
+}
+body{
+  margin: 0px;
+  padding-left:30% ;
+  padding-right:30% ;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.gap-10{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bg-black{
+  background-color: black;
+}
+.head-foot-container{
+  height: 200px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  flex-direction: column;
+  gap: 3px;
+  border-radius: 30px;
+}
+.sub-txt{
+  font-size: 16px;
+}
+.color-grey{
+  color: grey !important;
+}
+.input-container{
+ min-height: 300px;
+  min-width: 100%;
+  width: auto;
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+}
+.input-box{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.input-box input{
+  height: 30px;
+  padding-left: 10px;
+  color: white;
+  border-radius: 5px;
+}
+.input-box textarea{
+  height: 80px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 5px;
+}
+button{
+  height: 30px;
+  width: 90px;
+  border-radius: 4px;
+  background-color: greenyellow;
+ cursor: pointer;
+}
+.bg-blue{
+  background-color: blue;
+}
+.view-container{
+  margin-top: 30px;
+}
+.view-box{
+  min-height: 60px;
+  height: auto;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+
+}
+.bg-blue-line{
+  width: 5px;
+  background-color: blue;
+  border-radius: 0px 10px 20px;
+}
+.task-div{
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex-direction: column;
+}
+.title-txt{
+  font-size: 25px;
+  justify-self: left !important;
+  font-weight: 500;
+}

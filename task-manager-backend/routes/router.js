@@ -1,0 +1,10 @@
+const controller=require('../controller/controller.js');
+const express=require('express');
+const router=express.Router();
+const {verify}=require('../utils/authMiddleware.js');
+router.post('/user/login',controller.loginUser);
+router.post('/user/title',verify,controller.setTask);
+router.get('/user/tasks',verify,controller.getTask);
+router.patch('/user/task/update',verify,controller.updateTask);
+router.delete('/user/task/update',verify,controller.deleteTask);
+module.exports=router;
